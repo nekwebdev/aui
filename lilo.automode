@@ -90,6 +90,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 14) i3-Gaps
   # 15) OpenBox
   # 16) Xmonad
+  # 17) herbstluftwm
   DESKTOPENV="4"
   #KDE {{{
     # 1) Choqok

@@ -1285,7 +1285,7 @@ install_desktop_environment(){
   echo " 4) GNOME           14) i3-Gaps"
   echo " 5) KDE             15) OpenBox"
   echo " 6) LXQT            16) Xmonad"
-  echo " 7) Mate"
+  echo " 7) Mate            17) herbstluftwm"
   echo " 8) XFCE"
   echo " 9) Budgie"
   echo " 10) UKUI"
@@ -1660,6 +1660,18 @@ install_desktop_environment(){
       pause_function
       install_misc_apps "XMONAD"
       install_themes "XMONAD"
+      ;;
+      #}}}
+    17)
+      #HERBSTLUFTWM {{{
+      print_title "herbstluftwm - https://wiki.archlinux.org/index.php/Herbstluftwm"
+      print_info "herbstluftwm is a manual tiling window manager for the X window system."
+      package_install "herbstluftwm"
+      # config xinitrc
+      config_xinitrc "herbstluftwm --locked"
+      pause_function
+      install_misc_apps "HERBSTLUFTWM"
+      install_themes "HERBSTLUFTWM"
       ;;
       #}}}
     "b")
