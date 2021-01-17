@@ -1667,6 +1667,9 @@ install_desktop_environment(){
       print_title "herbstluftwm - https://wiki.archlinux.org/index.php/Herbstluftwm"
       print_info "herbstluftwm is a manual tiling window manager for the X window system."
       package_install "herbstluftwm"
+      mkdir -p /home/"${username}"/.config/herbstluftwm/
+      cp /etc/xdg/herbstluftwm/autostart /home/"${username}"/.config/herbstluftwm/
+      chown -R "${username}":users /home/"${username}"/.config
       # config xinitrc
       config_xinitrc "herbstluftwm --locked"
       pause_function
