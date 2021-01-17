@@ -91,7 +91,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   # 15) OpenBox
   # 16) Xmonad
   # 17) herbstluftwm
-  #DESKTOPENV="4"
+  DESKTOPENV="16"
   #KDE {{{
     # 1) Choqok
     # 2) Digikam
@@ -100,7 +100,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     # 5) latte-dock
     # 6) Skrooge
     # 7) Yakuake
-    #KDE_OPTIONS="1 2 3 6 7"
+    KDE_OPTIONS=""
   #}}}
   #ESSENTIAL APPS [Enlightenment,LXDE,Awesome,Fluxbox,OpenBox] {{{
     #  1) Display Manager
@@ -130,7 +130,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   #}}}
   # 1) Icons Themes
   # 2) GTK2|GTK3 Themes
-    #THEMES_OPTIONS="1 2"
+    THEMES_OPTIONS="1 2"
   #ICONS THEMES {{{
     #  1) Arc
     #  2) Adwaita
@@ -142,7 +142,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #  8) Pop
     #  9) Solus
     # 10) Yaru
-    #ICONS_THEMES="7"
+    ICONS_THEMES=""
   #}}}
   #GTK THEMES {{{
     #  1) Arc
@@ -155,7 +155,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #  8) Flat-Remix
     #  9) Zuki
     # 10) Zukitwo
-    #GTK_THEMES="1"
+    GTK_THEMES=""
   #}}}
 #}}}
 #NETWORK MANAGER {{{
