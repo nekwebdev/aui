@@ -48,7 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   READAHEAD="n"
   SAMBA="y"
   SSH="y"
-  TLP="n"                # Laptop Power Manager
+  TLP="y"                # Laptop Power Manager
   ZRAM="n"
   ZSH="n"
   OH_MY_ZSH="n"
